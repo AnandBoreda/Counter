@@ -9,7 +9,7 @@ class App extends Component {
       { id: 1, value: 0 },
       { id: 2, value: 10 },
       { id: 3, value: 11 },
-      { id: 4, value: 10 },
+      { id: 4, value: 9 },
     ],
   };
   handleDelete = (counterId) => {
