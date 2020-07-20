@@ -11,13 +11,13 @@ class Counter extends Component {
           }}
           className="btn btn-secondary btn-sm mx-2 my-2"
         >
-          Increment
+          Add
         </button>
         <button
           className="btn btn-danger btn-sm"
           onClick={() => this.props.onDelete(this.props.counter.id)}
         >
-          delete
+          Remove
         </button>
       </div>
     );
